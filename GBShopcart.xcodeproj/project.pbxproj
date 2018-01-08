@@ -76,6 +76,8 @@
 		4CA84ACF200310480036A3B3 /* GBShopcartCountView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA84AC3200310470036A3B3 /* GBShopcartCountView.m */; };
 		4CA84AD0200310480036A3B3 /* GBShopcartHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA84AC5200310470036A3B3 /* GBShopcartHeaderView.m */; };
 		4CA84AD1200310480036A3B3 /* GBShopcartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA84AC8200310470036A3B3 /* GBShopcartViewController.m */; };
+		4CA84AD3200328F60036A3B3 /* 效果图.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4CA84AD2200328F60036A3B3 /* 效果图.gif */; };
+		4CA84AD52003290A0036A3B3 /* 效果图.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4CA84AD42003290A0036A3B3 /* 效果图.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -220,6 +222,8 @@
 		4CA84AC5200310470036A3B3 /* GBShopcartHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBShopcartHeaderView.m; sourceTree = "<group>"; };
 		4CA84AC7200310470036A3B3 /* GBShopcartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBShopcartViewController.h; sourceTree = "<group>"; };
 		4CA84AC8200310470036A3B3 /* GBShopcartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBShopcartViewController.m; sourceTree = "<group>"; };
+		4CA84AD2200328F60036A3B3 /* 效果图.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "效果图.gif"; path = "../../../../效果图.gif"; sourceTree = "<group>"; };
+		4CA84AD42003290A0036A3B3 /* 效果图.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "效果图.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +256,7 @@
 		4CA849CB20030ECF0036A3B3 /* GBShopcart */ = {
 			isa = PBXGroup;
 			children = (
+				4CA84AD42003290A0036A3B3 /* 效果图.gif */,
 				4CA84AB1200310470036A3B3 /* GBShopcart */,
 				4CA849CC20030ECF0036A3B3 /* AppDelegate.h */,
 				4CA849CD20030ECF0036A3B3 /* AppDelegate.m */,
@@ -422,6 +427,7 @@
 		4CA84A4620030ECF0036A3B3 /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
+				4CA84AD2200328F60036A3B3 /* 效果图.gif */,
 				4CA84A4720030ECF0036A3B3 /* MKAnnotationView+WebCache.h */,
 				4CA84A4820030ECF0036A3B3 /* MKAnnotationView+WebCache.m */,
 				4CA84A4920030ECF0036A3B3 /* NSData+ImageContentType.h */,
@@ -588,6 +594,8 @@
 				4CA84A6B20030ECF0036A3B3 /* Assets.xcassets in Resources */,
 				4CA84A6D20030ECF0036A3B3 /* Main.storyboard in Resources */,
 				4CA84A7920030ECF0036A3B3 /* shopcart.plist in Resources */,
+				4CA84AD3200328F60036A3B3 /* 效果图.gif in Resources */,
+				4CA84AD52003290A0036A3B3 /* 效果图.gif in Resources */,
 				4CA84A8920030ECF0036A3B3 /* Info.plist in Resources */,
 				4CA84AB020030F7B0036A3B3 /* Info.plist in Resources */,
 			);

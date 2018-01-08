@@ -6,20 +6,20 @@
 		<key>brandId</key>
 		<string>20150520104604126C22138DC-56F5-4668-9855-44D4E149539C</string>
 		<key>brandName</key>
-		<string>欧比亚斯</string>
+		<string>家具店铺</string>
 		<key>products</key>
 		<array>
 			<dict>
 				<key>addDate</key>
 				<string></string>
 				<key>applicableRegion</key>
-				<string>卧室,书房,厨房,卫浴间,衣帽间,阳台,玄关/过道/廊道,高层/复式/别墅,低户型</string>
+				<string>卧室,书房,厨房,卫浴间,衣帽间,阳台</string>
 				<key>authentic</key>
 				<integer>2</integer>
 				<key>brandId</key>
 				<string>20150520104604126C22138DC-56F5-4668-9855-44D4E149539C</string>
 				<key>brandName</key>
-				<string>欧比亚斯</string>
+				<string>一品</string>
 				<key>brandPicUri</key>
 				<string>http://oss.av-gd.com/ROOT/busiImage/dest/brand/欧比亚斯_20150829160804641.jpg</string>
 				<key>cartId</key>
@@ -79,7 +79,7 @@
 		<key>brandId</key>
 		<string>20150520103700232B86927F5-F1D6-434F-BA53-6C7D928F3120</string>
 		<key>brandName</key>
-		<string>哈佛斯顿</string>
+		<string>赛博灯具淘宝店铺</string>
 		<key>products</key>
 		<array>
 			<dict>
@@ -92,9 +92,9 @@
 				<key>brandId</key>
 				<string>20150520103700232B86927F5-F1D6-434F-BA53-6C7D928F3120</string>
 				<key>brandName</key>
-				<string>哈佛斯顿</string>
+				<string>赛博一品</string>
 				<key>brandPicUri</key>
-				<string>http://oss.av-gd.com/ROOT/busiImage/dest/brand/哈佛斯顿_20150829155029543.jpg</string>
+				<string>http://img.lanrentuku.com/img/allimg/1601/14525714174967.jpg</string>
 				<key>cartId</key>
 				<string>83c918e8-1177-4415-8d62-9ab821a58019</string>
 				<key>cartType</key>
@@ -124,7 +124,7 @@
 				<key>productNum</key>
 				<string>G3988/1</string>
 				<key>productPicUri</key>
-				<string>http://oss.av-gd.com/ROOT/busiImage/dest/product/MDGH/big/未标题-1_20160416175411242_20160420113120500.png</string>
+				<string>http://img.lanrentuku.com/img/allimg/1601/14525714174967.jpg</string>
 				<key>productPrice</key>
 				<integer>42</integer>
 				<key>productQty</key>
@@ -132,7 +132,7 @@
 				<key>productStocks</key>
 				<integer>979</integer>
 				<key>productStyle</key>
-				<string>美式风格,简约美式</string>
+				<string>美式风格</string>
 				<key>productType</key>
 				<string>吸顶灯</string>
 				<key>remark</key>
@@ -152,22 +152,22 @@
 		<key>brandId</key>
 		<string>20150916091214889CAF04688-5CDE-4476-AC69-669D1FAF1024</string>
 		<key>brandName</key>
-		<string>成虹</string>
+		<string>水果淘宝店铺</string>
 		<key>products</key>
 		<array>
 			<dict>
 				<key>addDate</key>
 				<string></string>
 				<key>applicableRegion</key>
-				<string>其他</string>
+				<string></string>
 				<key>authentic</key>
 				<integer>2</integer>
 				<key>brandId</key>
 				<string>20150916091214889CAF04688-5CDE-4476-AC69-669D1FAF1024</string>
 				<key>brandName</key>
-				<string>成虹</string>
+				<string>水果果</string>
 				<key>brandPicUri</key>
-				<string>http://oss.av-gd.com/ROOT/busiImage/dest/brand/成虹_20150922142034554.jpg</string>
+				<string>http://img.lanrentuku.com/img/allimg/1601/14521684121251.jpg</string>
 				<key>cartId</key>
 				<string>9eaa0976-99f4-41e7-865b-7453cd739be8</string>
 				<key>cartType</key>
@@ -197,7 +197,7 @@
 				<key>productNum</key>
 				<string>FB-TD1501/4000K</string>
 				<key>productPicUri</key>
-				<string>http://oss.av-gd.com/ROOT/busiImage/dest/product/MDGH/big/FB-TD1501-4000K_20160418134637260.png</string>
+				<string>http://img.lanrentuku.com/img/allimg/1601/14521684121251.jpg</string>
 				<key>productPrice</key>
 				<integer>13</integer>
 				<key>productQty</key>
@@ -229,9 +229,9 @@
 				<key>brandId</key>
 				<string>20150916091214889CAF04688-5CDE-4476-AC69-669D1FAF1024</string>
 				<key>brandName</key>
-				<string>成虹</string>
+				<string>西红柿淘宝店铺</string>
 				<key>brandPicUri</key>
-				<string>http://oss.av-gd.com/ROOT/busiImage/dest/brand/成虹_20150922142034554.jpg</string>
+				<string>http://img.lanrentuku.com/img/allimg/1601/14521684121251.jpg</string>
 				<key>cartId</key>
 				<string>b5495064-bf5b-4425-96a6-c5ee02e3b837</string>
 				<key>cartType</key>
@@ -261,7 +261,7 @@
 				<key>productNum</key>
 				<string>ZR-LP5001-尖/3000K</string>
 				<key>productPicUri</key>
-				<string>http://oss.av-gd.com/ROOT/busiImage/dest/product/MDGH/big/FB-TD1501-4000K_20160418134637260.png</string>
+				<string>http://img.lanrentuku.com/img/allimg/1601/14521684121251.jpg</string>
 				<key>productPrice</key>
 				<integer>6</integer>
 				<key>productQty</key>
@@ -271,7 +271,7 @@
 				<key>productStyle</key>
 				<string></string>
 				<key>productType</key>
-				<string>商业照明</string>
+				<string>水果</string>
 				<key>remark</key>
 				<string></string>
 				<key>specHeight</key>
@@ -289,7 +289,7 @@
 		<key>brandId</key>
 		<string>201506151539343818FD4F4F1-73BD-48D3-82EF-2E3CE387192D</string>
 		<key>brandName</key>
-		<string>测试品牌01</string>
+		<string>西红柿淘宝店铺</string>
 		<key>products</key>
 		<array>
 			<dict>
@@ -302,7 +302,7 @@
 				<key>brandId</key>
 				<string>201506151539343818FD4F4F1-73BD-48D3-82EF-2E3CE387192D</string>
 				<key>brandName</key>
-				<string>测试品牌01</string>
+				<string>西红柿店铺</string>
 				<key>brandPicUri</key>
 				<string>http://oss.av-gd.com/ROOT/busiImage/dest/brand/1_20150720211703024.jpg</string>
 				<key>cartId</key>
@@ -330,11 +330,11 @@
 				<key>productMade</key>
 				<string></string>
 				<key>productName</key>
-				<string>演示产品01001</string>
+				<string>西红柿01001</string>
 				<key>productNum</key>
 				<string>yscp01001</string>
 				<key>productPicUri</key>
-				<string>http://oss.av-gd.com/ROOT/busiImage/dest/product/MDGH/big/DSC_3609-8ZT_20150615184545875.png</string>
+				<string>http://img.lanrentuku.com/img/allimg/1601/14521684121251.jpg</string>
 				<key>productPrice</key>
 				<integer>1</integer>
 				<key>productQty</key>
