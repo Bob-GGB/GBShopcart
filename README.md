@@ -4,7 +4,7 @@ ___
 
 
 ## 效果图
-<img src="https://github.com/lll1024/JVShopcart/blob/master/gif/2017-03-31%2010.43.23.gif" width="320" height="568" alt=""/>
+<img src="https://github.com/gaoguanbao/GBShopcart/blob/master/GBShopcart/%E6%95%88%E6%9E%9C%E5%9B%BE.gif" width="320" height="568" alt=""/>
 
 ## 说明
 这是一个具备常规功能并方便改造的购物车模型 一共包含五个模块：
