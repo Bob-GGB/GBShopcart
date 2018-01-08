@@ -57,7 +57,7 @@ ___
 * BrandModel里边有两个成员变量是手动添加进去的：isSelected和selectedArray前者是为了记录某个品牌或者说某个section是否被选中 后者是结算的时候记录选中的商品
 * ProductModel里边的isSelected也是手动添加的 也是为了记录某个商品或者说某个row是否被选中
 * Vendor文件夹里边是一些开源库 布局依赖Masonry 字典转模型依赖MJExtension 图片异步加载依赖SDWebImage 键盘的管理依赖IQKeyboardManager 当然你也可以自己处理
-* View里边的回调都是用的Block JVShopcartFormat里边的回调都是用的delegate 你也可以根据需求自行选择具体的回调方式
+* View里边的回调都是用的Block GBShopcartFormat里边的回调都是用的delegate 你也可以根据需求自行选择具体的回调方式
 * 虽然购物车大同小异 但是总有些奇葩的需求需要自己去处理 肯定是要根据我的注释去做一些修改的
 
 以上如有帮助欢迎右上角star
