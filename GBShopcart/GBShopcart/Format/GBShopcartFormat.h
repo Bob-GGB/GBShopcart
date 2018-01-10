@@ -48,5 +48,5 @@
 - (void)settleSelectedProducts;
 
 //进行议价
-- (void)BargainingSelectedProductsAtIndexPath:(NSIndexPath *)indexPath;
+- (void)BargainingSelectedProductsAtIndexPath:(NSIndexPath *)indexPath isSelected:(BOOL)isSelected;
 @end

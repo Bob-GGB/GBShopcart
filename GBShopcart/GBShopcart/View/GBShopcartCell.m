@@ -16,7 +16,7 @@
 @property (nonatomic, strong) UIButton *productSelectButton;
 @property (nonatomic, strong) UIImageView *productImageView;
 @property (nonatomic, strong) UILabel *productNameLable;
-@property (nonatomic,strong) UIButton *BargainingButton;//进行议价按钮
+
 @property (nonatomic, strong) UILabel *productPriceLable;
 @property (nonatomic, strong) GBShopcartCountView *shopcartCountView;
 @property (nonatomic, strong) UILabel *productStockLable;
@@ -77,11 +77,10 @@
 }
 
 
--(void)bargainingButtonAction{
+-(void)bargainingButtonAction:(UIButton *)sender{
     
+      self.BargainingButton.selected = !self.BargainingButton.isSelected;
     
-    NSLog(@"我被点击了");
-    self.BargainingButton.selected = !self.BargainingButton.isSelected;
     if (self.bargingBlock) {
         self.bargingBlock(self.BargainingButton.selected);
     }
@@ -96,7 +95,7 @@
         _BargainingButton = [UIButton buttonWithType:UIButtonTypeCustom];
         [_BargainingButton setTitle:@"进行议价" forState:UIControlStateNormal];
         [_BargainingButton setTitleColor:[UIColor colorWithRed:0.918  green:0.141  blue:0.137 alpha:1] forState:UIControlStateNormal];
-        [_BargainingButton addTarget:self action:@selector(bargainingButtonAction) forControlEvents:UIControlEventTouchUpInside];
+        [_BargainingButton addTarget:self action:@selector(bargainingButtonAction:) forControlEvents:UIControlEventTouchUpInside];
         _BargainingButton.titleLabel.font=[UIFont systemFontOfSize:14];
     }
     return _BargainingButton;
@@ -244,4 +243,13 @@
     }];
 }
 
+
+
+
+
 @end
+
+
+
+
+

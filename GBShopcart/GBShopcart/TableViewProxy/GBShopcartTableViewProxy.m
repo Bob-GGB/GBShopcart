@@ -26,7 +26,13 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    GBShopcartCell *cell = [tableView dequeueReusableCellWithIdentifier:@"GBShopcartCell"];
+    static NSString *CellIdentifier = @"GBShopcartCell";
+    // 通过indexPath创建cell实例 每一个cell都是单独的
+    GBShopcartCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    if (!cell) {
+        cell = [[GBShopcartCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+    }
+//    GBShopcartCell *cell = [tableView dequeueReusableCellWithIdentifier:@"GBShopcartCell"];
     GBShopcartBrandModel *brandModel = self.dataArray[indexPath.section];
     NSArray *productArray = brandModel.products;
     if (productArray.count > indexPath.row) {

@@ -124,7 +124,8 @@
         };
         
         _shopcartTableViewProxy.shopcartProxyBargainingBlock = ^(BOOL isSelected, NSIndexPath *indexPath) {
-            [weakSelf.shopcartFormat BargainingSelectedProductsAtIndexPath:indexPath];
+            [weakSelf.shopcartFormat BargainingSelectedProductsAtIndexPath:indexPath isSelected:isSelected];
+            
         };
         
     }
@@ -200,5 +201,8 @@
         make.height.equalTo(@50); 
     }];
 }
+
+
+
 
 @end

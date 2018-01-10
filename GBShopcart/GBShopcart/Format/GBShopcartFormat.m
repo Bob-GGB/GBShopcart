@@ -45,6 +45,8 @@
     brandModel.isSelected = isBrandSelected;
     
     [self.delegate shopcartFormatAccountForTotalPrice:[self accountTotalPrice] totalCount:[self accountTotalCount] isAllSelected:[self isAllSelected]];
+    
+//    NSLog(@"---%@---%@---%@",brandModel.brandName,productModel.productName,productModel.productStyle);
 }
 
 - (void)selectBrandAtSection:(NSInteger)section isSelected:(BOOL)isSelected {
@@ -150,10 +152,29 @@
     
 }
 
--(void)BargainingSelectedProductsAtIndexPath:(NSIndexPath *)indexPath{
-    //这里写进行议价网络请求
-//    NSLog(@"我选的是：%@",indexPath);
-    [self settleSelectedProducts];
+//选中商品进行议价
+-(void)BargainingSelectedProductsAtIndexPath:(NSIndexPath *)indexPath isSelected:(BOOL)isSelected{
+    GBShopcartBrandModel *brandModel = self.shopcartListArray[indexPath.section];
+    GBShopcartProductModel *productModel = brandModel.products[indexPath.row];
+    
+    
+    productModel.isSelected = isSelected;
+
+    BOOL isBrandSelected = YES;
+    
+    for (GBShopcartProductModel *aProductModel in brandModel.products) {
+        if (aProductModel.isSelected == NO) {
+            isBrandSelected = NO;
+        }
+    }
+
+//    NSLog(@"%@",productModel.isSelected ?@"YES":@"NO");
+    brandModel.isSelected = isBrandSelected;
+    
+    [self.delegate shopcartFormatAccountForTotalPrice:[self accountTotalPrice] totalCount:[self accountTotalCount] isAllSelected:[self isAllSelected]];
+    
+    NSLog(@"---%@---%@---%@",brandModel.brandName,productModel.productName,productModel.productStyle);
+    
     
 }
 
@@ -174,6 +195,7 @@
         NSMutableArray *selectedArray = [[NSMutableArray alloc] init];
         for (GBShopcartProductModel *productModel in brandModel.products) {
             if (productModel.isSelected) {
+//                [selectedArray removeAllObjects];
                 [selectedArray addObject:productModel];
             }
         }
@@ -189,7 +211,7 @@
         
          NSLog(@"%@",brandModel.brandName);
         for (GBShopcartProductModel *productModel in brandModel.products) {
-           NSLog(@"%@",productModel.productName);
+           NSLog(@"%@",productModel.brandName);
         }
     }
     

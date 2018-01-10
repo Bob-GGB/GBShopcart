@@ -16,7 +16,7 @@ typedef void(^BargingBlock)(BOOL isSelected);
 @property (nonatomic, copy) ShopcartCellBlock shopcartCellBlock;
 @property (nonatomic, copy) ShopcartCellEditBlock shopcartCellEditBlock;
 @property (nonatomic,copy)  BargingBlock bargingBlock;
-
+@property (nonatomic,strong) UIButton *BargainingButton;//进行议价按钮
 
 - (void)configureShopcartCellWithProductURL:(NSString *)productURL
                                 productName:(NSString *)productName
